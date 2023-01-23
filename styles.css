@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #d0d1d3;
+    background-size: cover;
+    background: url(https://images.unsplash.com/photo-1674390166369-a9e91cc8197c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
+
+.Hobosti{
+    font-family: 'Courier New', Courier, monospace ;
+    color: rgb(106, 157, 174);
+}
+
+Footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links{
+    margin-bottom: 50px;
+}
+
+footer .links > a{
+    color: rgb(1,1,1);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(106, 157, 174);
+}
+
+.news{
+    background-color: rgb(163, 148, 129);
+    padding: 50px 0 32px;
+}
+
+.news:nth-child(odd){
+    background-color: rgb(212, 204, 195);
+}
+
+.news:nth-of-type(-n+2) h2::before{
+    content: "NEW ";
+}
+
+article  {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a:hover{
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
